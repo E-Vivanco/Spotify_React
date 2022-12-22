@@ -1,0 +1,51 @@
+body{
+    background: #33333323;
+    margin-left: 5%;
+    width: 400px;
+    height: auto;
+}
+.card{
+    background-color: rgb(75, 73, 73);
+    width: 150px;
+    height: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.songs{
+    background: #000000;
+    margin-top: 1%;
+    width: auto;
+    height: auto;
+}
+.titulo{
+    background: rgb(80, 82, 80);
+    margin-top: 1%;
+    width: 400px;
+    height:50px;
+    align-items: center;
+    color:white;
+    border-radius: 10px;
+}
+h2{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.botones{
+    text-align: start;
+    margin-left: 0%;
+    width: 400px;
+    height: 50px;
+    background: gray;
+}
+.inv.fa-play{
+    transform:rotate(180deg);
+    margin-left: 120px;
+}
+.der.fa-play{
+    transform:rotate(360deg);
+    margin-left: 50px;
+}
+.fa-pause{
+    margin-left: 50px;
+}
