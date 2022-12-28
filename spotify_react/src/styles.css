@@ -30,8 +30,9 @@ body{
     border-top-right-radius:  10px;
 }
 h1{
-    margin-left: 25%;
+    
     margin-top: 5%;
+    margin-left: 50px;
 }
 .botones{
     text-align: start;

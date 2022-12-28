@@ -95,7 +95,7 @@ if (isLoading) {<h1>Cargando...</h1> }  // bandera de carga mientras actua fetch
  // se pinta la tabla de canciones con formato previa mente definido en style junto con los botones
   return (
     <>
-      <div className='titulo'><h2 className='my-2 py-2'>Spotify-React</h2></div>
+      <div className='titulo'><h2 className='py-2 mx-5 w-50'>Spotify-React</h2></div>
       <div className=" card d-flex w-100 flex-column">
               <div>
                 <table>
