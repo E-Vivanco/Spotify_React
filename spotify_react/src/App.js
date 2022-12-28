@@ -55,7 +55,7 @@ function App () {
         audioRef.current.pause();
       }
     }
-    setPlaying(!isPlaying);
+    setPlaying(!isPlaying); //detenemos la reproduccion-song
   };
   
 
