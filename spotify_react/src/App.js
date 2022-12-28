@@ -84,14 +84,15 @@ useEffect(() => {     //hooks que realiza la consulta fetch y setea la data en s
      const response =  await fetch("https://assets.breatheco.de/apis/sound/songs");
      const info2= await response.json();
            setSongs(info2);
-           setIsLoading(false);
+           setIsLoading(false);//  carga finalizada
        }catch(error){
          console.log(error);
        }       
      }
      recuperaSongs()
+
      }, []);
-if (isLoading) {<h1>Cargando...</h1> }  // bandera de carga mientras actua fetch
+
  // se pinta la tabla de canciones con formato previa mente definido en style junto con los botones
   return (
     <>
@@ -120,13 +121,13 @@ if (isLoading) {<h1>Cargando...</h1> }  // bandera de carga mientras actua fetch
           
       </div> 
       
-      <div className="botones d-flex flex-row'">
+      <div className='botones d-flex flex-row'>
       
             <button className="btn btn-dark m-2" onClick={() => avanzaBoton('backward')}><i className="fa-solid fa-backward"></i></button>
             <button className="btn btn-dark m-2" onClick={PlayBoton}>{isPlaying ? <i className="fa-solid fa-pause"></i> : <i className="fa-solid fa-play"></i>}</button>
             <button className="btn btn-dark m-2" onClick={() => avanzaBoton('forward')}><i className="fa-solid fa-forward"></i></button>
             <div className="song m-4">{activaSong}</div>
-  
+             
         </div>
              
            
